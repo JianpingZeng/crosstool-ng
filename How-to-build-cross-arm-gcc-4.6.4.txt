@@ -1,0 +1,8 @@
+Please follow the below steps to build a cross compiler for gcc 4.6.4 and armv7 architecture.
+1. checkout the crosstool-ng-1.20 tag.
+2. choose gcc 4.6.4 and linux kernel 2.38(which is used to keep compatible with our gem5 fork)
+3. choose arm architecutre and softfp mode, 128 bits long integer.
+4. enable c++, fortran language, libgomp and gdb etc.
+5. use the latest version of glibc, mpc, mpfr, ppl, isl etc.
+6. note that, don't enable ltrace for debug support, only gdb is required.
+7. use default value for other options.

@@ -9,7 +9,10 @@ Makefile
 !ct-ng.in
 paths.*
 config.gen/
-.config
+
+# Keep default config file.
+# Jianping Zeng
+#.config
 .config.2
 
 # Temporaries
