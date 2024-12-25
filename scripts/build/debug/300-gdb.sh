@@ -66,7 +66,7 @@ do_debug_gdb_get() {
 
     if [ "${need_expat_src}" = "y" ]; then
         CT_GetFile "expat-${CT_DEBUG_GDB_EXPAT_VERSION}" .tar.gz    \
-                   http://downloads.sourceforge.net/project/expat/expat/${CT_DEBUG_GDB_EXPAT_VERSION}
+                   https://repository.timesys.com/buildsources/e/expat/expat-${CT_DEBUG_GDB_EXPAT_VERSION}
     fi
 }
 
